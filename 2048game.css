@@ -1,0 +1,23 @@
+.border {
+    background-color: #808080;
+    border: solid 2px;
+    border-color: silver;
+
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.color {
+    background-color: white;
+}
+.grid {
+  max-width: 95%;
+  padding: 50px;
+}
+.tablestyle {
+    padding: 25px;
+    width: 37%;
+    height: 350px;
+}
