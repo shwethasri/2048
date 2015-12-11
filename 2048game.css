@@ -2,22 +2,34 @@
     background-color: #808080;
     border: solid 2px;
     border-color: silver;
-
+}
+.tdcells{
+    height: 22px;
+    width: 25%;
 }
 .center{
     display: block;
+    margin: 0;
     margin-left: auto;
     margin-right: auto;
+    width: 80%;
 }
 .color {
     background-color: white;
+    color: black;
+    font-size: 22px;
+    height: 22px;
+    position: relative;
+    width: 98px;
 }
-.grid {
-  max-width: 95%;
-  padding: 50px;
+.left {
+    float: left;
+}
+.position {
+    position: relative;
 }
 .tablestyle {
-    padding: 25px;
-    width: 37%;
-    height: 350px;
+    height: 352px;
+    position: relative;
+    width: 400px;
 }
