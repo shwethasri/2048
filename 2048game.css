@@ -14,14 +14,6 @@
     margin-right: auto;
     width: 80%;
 }
-.color {
-    background-color: white;
-    color: black;
-    font-size: 22px;
-    height: 22px;
-    position: relative;
-    width: 98px;
-}
 .left {
     float: left;
 }

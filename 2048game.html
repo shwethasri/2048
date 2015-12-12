@@ -15,7 +15,7 @@
           <h1><label class="text-center text-lg"><strong> 2048 </strong> </label></h1>
         </div>
         <div class="col-md-3">
-          <h2><label class="label label-default"> SCORE </label></h2>
+          <h2><label id="score" class="label label-default"> SCORE </label></h2>
         </div>
         <div class="col-md-3">
           <h2><label class="label label-default"> BEST </label></h2>
@@ -30,7 +30,7 @@
         <br>
         <div class="col-md-4">
           <br>
-          <button class="btn btn-lg btn-warning"><strong> New Game </strong></button>
+          <button id="clear" class="btn btn-lg btn-warning" onclick="clear()">New Game </button>
         </div>
         <div class="col-md-12">
           <hr>
@@ -41,7 +41,7 @@
       <div class="center">
         <table id="2048table" class="tablestyle border position">
           <tr id="row1" class="border">
-            <td class="border tdcells color">2</td>
+            <td class="border tdcells"></td>
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
@@ -52,13 +52,13 @@
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
           </tr>
-          <tr class="border">
+          <tr id="row3" class="border">
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
           </tr>
-          <tr class="border">
+          <tr id="row4" class="border">
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
             <td class="border tdcells"></td>
