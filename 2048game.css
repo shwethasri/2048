@@ -2,10 +2,11 @@
     background-color: #808080;
     border: solid 2px;
     border-color: silver;
+    border-radius: 2%;
     margin: 0, auto;
 }
 .tdcells{
-    height: 22px;
+    height: 25%;
     text-align: center;
     width: 25%;
 }
@@ -19,9 +20,6 @@
 }
 .left {
     float: left;
-}
-.position {
-    position: relative;
 }
 .tablestyle {
     height: 352px;
